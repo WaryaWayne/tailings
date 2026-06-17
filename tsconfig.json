@@ -1,0 +1,43 @@
+{
+  "$schema": "node_modules/@effect/language-service/schema.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": ["node"],
+    "allowImportingTsExtensions": true,
+    "exactOptionalPropertyTypes": true,
+    "plugins": [
+      {
+        "name": "@effect/language-service",
+        "diagnosticSeverity": {
+          "asyncFunction": "warning",
+          "instanceOfSchema": "warning",
+          "cryptoRandomUUID": "warning",
+          "cryptoRandomUUIDInEffect": "warning",
+          "newPromise": "warning",
+          "globalFetch": "warning",
+          "globalFetchInEffect": "warning",
+          "processEnv": "warning",
+          "processEnvInEffect": "warning",
+          "unsafeEffectTypeAssertion": "warning",
+          "preferSchemaOverJson": "warning",
+          "extendsNativeError": "warning",
+          "nodeBuiltinImport": "warning",
+          "globalDate": "warning",
+          "globalDateInEffect": "warning",
+          "globalConsole": "warning",
+          "globalConsoleInEffect": "warning",
+          "globalRandom": "warning",
+          "globalRandomInEffect": "warning",
+          "globalTimers": "warning",
+          "globalTimersInEffect": "warning"
+        }
+      }
+    ]
+  },
+  "include": ["packages/**/*.ts"]
+}

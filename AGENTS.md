@@ -3,7 +3,7 @@ please keep the effect lsp. It will warn you and remind you of best practices. Y
 <!-- tailings:start -->
 # Prior agent context (pulled by Tailings)
 
-Earlier coding-agent sessions ran in `/Users/bdmwarya/Desktop/projects/tailings`. Their memories and full transcripts were gathered 2026-06-17T03:52:34.308Z into `./.tailings/`.
+Earlier coding-agent sessions ran in `/Users/bdmwarya/Desktop/projects/tailings`. Their memories and full transcripts were gathered 2026-06-17T14:48:56.087Z into `./.tailings/`.
 
 **Read `./.tailings/` before you start** — a weaker model with this folder beats a stronger model starting cold.
 
@@ -12,7 +12,7 @@ Earlier coding-agent sessions ran in `/Users/bdmwarya/Desktop/projects/tailings`
 
 Available here:
 
-- **claude** — 4 sessions, 4 memory files
+- **claude** — 6 sessions, 4 memory files
 - **codex** — 0 sessions, 3 memory files
 
 ## Notes

@@ -1,6 +1,6 @@
 {
   "name": "tailings",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pull a directory's coding-agent session history (Claude Code, Codex, OpenCode, Gemini) into that directory so the next agent is instantly caught up.",
   "type": "module",
   "repository": {

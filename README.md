@@ -137,10 +137,16 @@ Normal use does not require any path flags; the current working directory is use
 
 ## Related tools
 
-Looking for a *specific* lost chat to resume, rather than gathering all history into the folder? Two companion tools find missing or hard-to-locate sessions that match the current directory and print the command to resume them:
+Companion tools that read the same local agent storage for different ends.
+
+Looking for a *specific* lost chat to resume, rather than gathering all history into the folder? These find missing or hard-to-locate sessions that match the current directory and print the command to resume them:
 
 - [`claude-relink`](https://github.com/WaryaWayne/claude-relink) — for Claude Code chats
 - [`codex-relink`](https://github.com/WaryaWayne/codex-relink) — for Codex CLI chats
+
+Want to see what your agents have been up to? This turns that same local history into usage analytics:
+
+- [`ai-hr`](https://github.com/WaryaWayne/ai-hr) — local "performance reviews" for your coding agents: normalizes token usage across Claude Code, Codex, and OpenCode and generates playful report cards, leaderboards, and cost breakdowns, all from local metadata.
 
 ## Author
 

@@ -1,0 +1,7 @@
+node_modules
+dist
+.pnpm-store
+references
+
+# Tailings writes pulled transcripts here in target dirs; never commit them.
+.tailings/

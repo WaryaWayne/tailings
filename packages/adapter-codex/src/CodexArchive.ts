@@ -192,7 +192,9 @@ export const pullCodex = Effect.fn("CodexArchive.pull")(function*(dir: string, p
     sessions.push(session)
   }
 
-  const memories = yield* readCodexMemories(paths.codexMemoriesDir)
+  const memories = matched.length > 0
+    ? yield* readCodexMemories(paths.codexMemoriesDir)
+    : []
   if (sessions.length === 0) notes.push("No Codex sessions found for this directory.")
 
   return { provider: "codex", sessions, memories, notes } satisfies ToolPull
